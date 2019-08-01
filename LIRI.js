@@ -14,7 +14,7 @@ var input = process.argv[3];
 var input2 = process.argv[4];
 var input3 = process.argv[5];
 
-// additional inputs converted to search queary
+// additional inputs converted to search query
 search = input
 if (!input2 && !input3) {
     console.log("\n" + cmd + "\n" + search);
@@ -84,6 +84,14 @@ function spotifyThis(songSearch) {
             console.log("\n==========================================================================");
             console.log("\nArtist Name: " + data.tracks.items[0].album.artists[0].name + "\nSong Name: " + data.tracks.items[0].name + "\nAlbum Name: " + data.tracks.items[0].album.name + "\nPreview Link: " + data.tracks.items[0].album.external_urls.spotify)
             console.log("\n==========================================================================");
-        }
-    })
+        };
+    });
+};
+
+// movie-this command
+function movieThis(movieSearch) {
+    if (!movieSearch) {
+        movieSearch = "The Big Lebowski"
+    };
+    
 }
