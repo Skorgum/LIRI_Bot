@@ -7,6 +7,7 @@ var moment = require("moment");
 moment().format();
 var Spotify = require("node-spotify-api");
 var spotify = new Spotify(keys.spotify);
+var axios = require("axios")
 
 // Variables pulled from user input
 var cmd = process.argv[2];
@@ -75,6 +76,8 @@ function spotifyThis(songSearch) {
     if (!songSearch) {
         songSearch = "Amethyst Realm";
     };
+    console.log("\n==========================================================================");
+    console.log("\nBeep Boop!  Now searching for " + songSearch);
     spotify.search({ type: "track", query: songSearch}, function(err, data) {
         if (err) {
             console.log("The following error occurred: " + err);
@@ -93,5 +96,12 @@ function movieThis(movieSearch) {
     if (!movieSearch) {
         movieSearch = "The Big Lebowski"
     };
-    
+    console.log("\n==========================================================================");
+    console.log("\nBeep Boop!  Now searching for movie info about: " + movieSearch);
+    movieSearch = movieSearch.split(" ").join("+")
+    axios.get("http://www.omdbapi.com/?t=" + movieSearch + "&y=&plot=short&apikey=trilogy")
+    .then(function(response) {
+        console.log(response)
+        // TODO:  convert object response into relevant data
+    })
 }
