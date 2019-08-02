@@ -141,7 +141,13 @@ function doThis() {
     fs.readFile("random.txt", "utf8", function(err, data) {
         if (err) throw err;
         command = data.split(",")
-        console.log(command)
-        // TODO:  convert command array to cmd & search
+        // console.log(command)
+        if (command[0] == "spotify-this-song") {
+            spotifyThis(command[1])
+        } else if (command[0] == "concert-this") {
+            concertThis(command[1])
+        } else if (command[0] == "movie-this") {
+            movieThis(command[1])
+        }
     })
 }
