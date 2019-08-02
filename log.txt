@@ -79,3 +79,31 @@ Song Name: Skibidi
 Album Name: Antipositive, Pt. 2
 Preview Link: https://open.spotify.com/album/0kIcx4ojwAIHwIIPPm7UnN
 ==========================================================================
+==========================================================================
+Venue: Lupo's Heartbreak Hotel
+Location: Providence, RI
+Date : 08/02/2019
+==========================================================================
+
+
+
+
+==========================================================================
+Artist Name: Rage Against The Machine
+Song Name: Take The Power Back
+Album Name: Rage Against The Machine - XX (20th Anniversary Special Edition)
+Preview Link: https://open.spotify.com/album/4Io5vWtmV1rFj4yirKb4y4
+==========================================================================
+
+
+==========================================================================
+Title: The Sting
+Year released: 1973
+Rated : PG
+Country: USA
+Language: English
+Plot: Two grifters team up to pull off the ultimate con.
+Starring: Paul Newman, Robert Redford, Robert Shaw, Charles Durning
+IMDB Rating: 8.3
+Rotten Tomatoes Rating: 93%
+==========================================================================
