@@ -20,7 +20,7 @@ The application is initialized from either the command line or the Git Bash term
 
 ### concert-this
 
-![concert-this screenshot](screenshots/concert-this.jpg)
+![concert-this screenshot](https://github.com/Skorgum/LIRI_Bot/blob/master/screenshots/concert-this.JPG)
 
 This command will provide you with information concerning the next scheduled concert for the band that you enter.  It will return:
 
@@ -32,7 +32,7 @@ If no search is specified, it will default to Clutch.
 
 ### spotify-this-song
 
-![spotify-this screenshot](screenshots/spotify-this-song.jpg)
+![spotify-this screenshot](https://github.com/Skorgum/LIRI_Bot/blob/master/screenshots/spotify-this-song.JPG)
 
 This command will provide you with information concering the song that you enter.  It will return:
 
@@ -45,7 +45,7 @@ If no search is specified, it will default to Amethyst Realm.
 
 ### movie-this
 
-![movie-this screenshot](screenshots/movie-this.jpg)
+![movie-this screenshot](https://github.com/Skorgum/LIRI_Bot/blob/master/screenshots/movie-this.JPG)
 
 This command will provide you with information concerning the movie that you enter.  It will return:
 
